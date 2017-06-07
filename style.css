@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*para que los bordes dados se respeten*/
+}
+
+body{
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+header{
+	background-color: #A9A7A5;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.menu{
+	width: 90%;
+	max-width: 1200px; /*establece el máximo que se ve el menú de la pantalla*/
+	margin: auto;
+	display: flex; /*hacer más adaptativas las pestañas cuando cambie el margen de los dispositivos*/
+	flex-direction: row; /*establecemos la dirección de las pestañas*/
+	justify-content: space-between;/*establece el espacio de las pestañas en el menu*/
+	align-items: center;
+}
+
+.menu .logo{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.menu .logo img{
+	vertical-align: top;
+	height: 60px;
+}
+
+.menu .btn-menu{
+	display: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 10px;
+}
+
