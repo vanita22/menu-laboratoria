@@ -51,32 +51,33 @@ header{
 	text-align: right;	
 }
 
-.menu .pestanas a{
+.menu .pestanas button{
 	color: #fff;
+	background-color: transparent;
 	text-decoration: none;
 	display: inline-block;
 	text-align: center;
-	font-size: 16px;
-	margin-right: 1px;
+	font-size: 16px;	
+	padding: 20px 55px;
+	border-top: none;
+	border-bottom: none;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
 }
 
 .menu .pestanas i{
 	margin-right: 3px;
 }
 
-.menu .pestanas a:hover{
+.menu .pestanas button:hover{
 	background: #F09235;
 	color: white;
-	padding: 30px 20px;
+	padding: 20px 55px;
+	font-family: 'Vibur', cursive;
+	font-size: 20px;
 }
 
-.linea{
-	border-left: 2px solid white;
-	border-right: 2px solid white;
-	height: 60px;
-	width: 150px;
-	padding: 10px;	
-}
+
 
 /*parte de la animación del javascript*/
 .headroom{
@@ -112,5 +113,6 @@ header{
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		font-family: 'Vibur', cursive;
 	}
 }
