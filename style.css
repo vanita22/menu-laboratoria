@@ -39,16 +39,16 @@ header{
 	display: none;
 	color: #fff;
 	text-decoration: none;
-	font-size: 10px;
+	font-size: 10px;	
 }
 
 .menu .logo:hover{
-	background: #A9A7A5;
+	background: #A9A7A5;	
 }
 
 .menu .pestanas{
 	display: inline-block;
-	text-align: right;
+	text-align: right;	
 }
 
 .menu .pestanas a{
@@ -57,7 +57,7 @@ header{
 	display: inline-block;
 	text-align: center;
 	font-size: 16px;
-	margin-right: 100px;	
+	margin-right: 1px;
 }
 
 .menu .pestanas i{
@@ -67,7 +67,15 @@ header{
 .menu .pestanas a:hover{
 	background: #F09235;
 	color: white;
-	padding: 25px 40px;
+	padding: 30px 20px;
+}
+
+.linea{
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	height: 60px;
+	width: 150px;
+	padding: 10px;	
 }
 
 /*parte de la animación del javascript*/
@@ -90,5 +98,19 @@ header{
 	}
 	header .menu .logo{
 		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		padding: 7px;
+	}
+	header .menu .logo .btn-menu{
+		display: inline-block;
+	}
+	header .menu .pestana{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 }
