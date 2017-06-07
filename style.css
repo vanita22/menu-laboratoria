@@ -69,3 +69,16 @@ header{
 	color: white;
 	padding: 25px 40px;
 }
+
+/*parte de la animación del javascript*/
+.headroom{
+	transition: transform .3s ease; /*hace que el menú se oculte*/
+}
+
+.headroom--pinned{
+	transform: translateY(0%);/*Esto hace que el menú se quede fijo en el navegador*/
+}
+
+.headroom--unpinned{
+	transform: translateY(-100%);/*esto hace que se oculte sobre el margen top para que se oculte*/
+}
