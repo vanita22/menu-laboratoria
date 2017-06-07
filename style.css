@@ -32,8 +32,7 @@ header{
 }
 
 .menu .logo img{
-	vertical-align: top;
-	height: 60px;
+	vertical-align: top;	
 }
 
 .menu .btn-menu{
@@ -43,3 +42,30 @@ header{
 	font-size: 10px;
 }
 
+.menu .logo:hover{
+	background: #A9A7A5;
+}
+
+.menu .pestanas{
+	display: inline-block;
+	text-align: right;
+}
+
+.menu .pestanas a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	margin-right: 100px;	
+}
+
+.menu .pestanas i{
+	margin-right: 3px;
+}
+
+.menu .pestanas a:hover{
+	background: #F09235;
+	color: white;
+	padding: 25px 40px;
+}
