@@ -83,12 +83,3 @@ header{
 	transform: translateY(-100%);/*esto hace que se oculte sobre el margen top para que se oculte*/
 	/*background-color: red; hace que cambie de color el menu*/
 }
-
-@media screen and (max-width:700px){
-	header .menu{
-		flex-direction: column;
-	}
-	header .menu .logo{
-		display: flex;
-	}
-}
